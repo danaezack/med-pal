@@ -1,5 +1,5 @@
-export function getMeds() {
-  return fetch('https://rxnav.nlm.nih.gov/REST/Prescribe/drugs.json?name=spironolactone')
+export function getMeds(keyword) {
+  return fetch(`https://rxnav.nlm.nih.gov/REST/Prescribe/drugs.json?name=${keyword}`)
     .then(response => {
       if (response.ok) {
         return response.json();
