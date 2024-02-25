@@ -7,7 +7,7 @@ import { getMeds } from '../apiCalls';
 function Home() {
   const [meds, setMeds] = useState(null);
   const [keyword, setKeyword] = useState('');
-  const [error, setError] = useState(null)
+  const [error, setError] = useState('')
 
   const requestMeds = (event) => {
     event.preventDefault()

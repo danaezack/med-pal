@@ -13,20 +13,23 @@ function SearchResults({ meds }) {
     if (meds.length) {
       return (
         <section>
+          <h2 className='results-title'>Search results:</h2>
           {medCards}
         </section>
       )
     } else {
       return (
-        <p className='no-match-msg'>No matching results. Triple check your spelling and try again!</p>
+        <>
+          <h2 className='results-title'>Search results:</h2>
+          <p className='no-match-msg'>No matching results. Triple check your spelling and try again!</p>
+        </>
       )
     }
   }
 
   return (
     <section>
-      <h2 className='results-title'>Search results:</h2>
-      {meds && renderResults()}
+      { meds && renderResults() }
     </section>
   )
 }
