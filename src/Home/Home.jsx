@@ -24,7 +24,6 @@ function Home() {
   
   return (
     <main>
-      <h1>MedPal</h1>
       <Search requestMeds={requestMeds} keyword={keyword} setKeyword={setKeyword}/>
       <SearchResults meds={meds}/>
     </main>
