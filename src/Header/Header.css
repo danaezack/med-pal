@@ -1,4 +1,54 @@
+.heading {
+  display: flex;
+  justify-content: space-between;
+  background-image: url('../../images/banner.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center right;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.full-title {
+  display: flex;
+}
+
 h1 {
-  font-size: 5em;
-  margin: 0 0 20px 5px;
+  color: black;
+  font-size: 6em;
+  margin: 20px 0 30px 5px;
+}
+
+.title-2 {
+  color: rgb(212, 78, 11);
+}
+
+.nav-bar {
+  display: flex;
+  align-items: flex-end;
+  margin: 0 30px 10px;
+}
+
+.nav-btn {
+  margin: 10px;
+  width: 7em;
+  height: 2.2em;
+  border: none;
+  border-radius: 1.5em;
+  font-size: 1em;
+  font-weight: 600;
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.nav-btn:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  background-color: rgb(185, 185, 185);
+}
+
+.nav-btn:active {
+  background-color: rgb(255, 255, 255);
 }

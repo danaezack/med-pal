@@ -13,7 +13,8 @@
   border: none;
   border-radius: 1em;
   padding: .5em;
-  width: 60%;
+  width: 80%;
+  height: auto;
   margin: 5px;
   align-self: center;
   display: flex;

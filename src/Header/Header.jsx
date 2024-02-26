@@ -1,13 +1,22 @@
 import './Header.css';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 function Header() {
   return (
-    <section>
-      <h1>MedPal</h1>
-      <nav>
-        <NavLink to='/' className='nav'>Home</NavLink>
-        <NavLink to='/med-list' className='nav'>Med List</NavLink>
+    <section className='heading'>
+      <Link to='/'>
+        <section className='full-title'>
+        <h1 className='title-1'>Med</h1>
+        <h1 className='title-2'>Pal</h1>
+        </section>
+      </Link>
+      <nav className='nav-bar'>
+        <NavLink to='/'>
+          <button className='nav-btn'>Home</button>
+        </NavLink>
+        <NavLink to='/med-list'>
+          <button className='nav-btn'>Med List</button>
+        </NavLink>
       </nav>
     </section>
   );

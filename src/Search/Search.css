@@ -1,16 +1,16 @@
 .form {
   display: flex;
   justify-content: center;
-  margin-bottom: 25px;
   width: 100%;
+  margin-top: 50px;
 }
 
 .search-input {
   border: none;
-  border-radius: 1em;
+  border-radius: 1.5em;
   padding: .5em;
   width: 70%;
-  margin-right: 5px;
+  margin-right: 15px;
   background-color: rgb(255, 255, 255);
   font-size: 1em;
 }
@@ -22,16 +22,15 @@
 
 .search-btn {
   border: none;
-  border-radius: 1em;
+  border-radius: 1.5em;
   padding: .5em;
   width: 150px;
   font-size: 1em;
   font-weight: 700;
-  background-color: rgb(209, 209, 209);
+  background-color: rgb(185, 185, 185);
 }
 
 .search-btn:hover {
   cursor: pointer;
-  background-color: rgb(176, 176, 176);
-  transform: scale(1.02);
+  transform: scale(1.05);
 }
