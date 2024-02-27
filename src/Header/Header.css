@@ -46,7 +46,7 @@ h1 {
 .nav-btn:hover {
   cursor: pointer;
   transform: scale(1.05);
-  background-color: rgb(185, 185, 185);
+  background-color: rgb(199, 199, 199);
 }
 
 .nav-btn:active {

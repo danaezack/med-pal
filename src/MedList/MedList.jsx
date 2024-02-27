@@ -2,8 +2,8 @@ import './MedList.css';
 
 function MedList() {
   return (
-    <main>
-      <h2>Medication List</h2>
+    <main className='med-list-page'>
+      <h2 className='med-list-title'>My Medication List:</h2>
     </main>
   );
 }

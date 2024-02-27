@@ -6,7 +6,7 @@
 }
 
 .search-input {
-  border: none;
+  border: 1.5px solid black;
   border-radius: 1.5em;
   padding: .5em;
   width: 70%;
@@ -16,7 +16,6 @@
 }
 
 .search-input:hover, .search-input:focus, .search-input::selection {
-  border: 1.5px solid black;
   cursor: pointer;
 }
 
@@ -27,7 +26,7 @@
   width: 150px;
   font-size: 1em;
   font-weight: 700;
-  background-color: rgb(185, 185, 185);
+  background-color: rgb(199, 199, 199);
 }
 
 .search-btn:hover {

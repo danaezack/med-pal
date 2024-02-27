@@ -18,5 +18,12 @@
   margin: 5px;
   align-self: center;
   display: flex;
-  background-color: rgb(255, 255, 255)
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 2px #888888;
+}
+
+.med-card:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+  background: rgb(199, 199, 199);
 }
