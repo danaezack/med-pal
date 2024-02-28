@@ -1,18 +1,23 @@
 import './Modal.css';
+import { Link } from 'react-router-dom';
 
-function Modal({ medication, closeModal }) {
-  // if (!medication) return
+function Modal({ medication, closeModal, addMed, clearResults }) {
 
   return (
     <section className='overlay'>
-      {/* <section className='overlay-background'></section> */}
       <section className='modal'>
         <div className='close-btn-container'>
           <button className='close-btn' onClick={() => closeModal()}>X</button>
         </div>
         <p>You have selected:</p>
         <p className='medication-name'>{medication}</p>
-        <button className='add-btn'>Add Medication</button>
+        <Link to='/med-list'>
+          <button className='add-btn' onClick={() => {
+            addMed(medication);
+            closeModal();
+            clearResults();
+          }}>Add Medication</button>
+        </Link>
       </section>
     </section>
   );
