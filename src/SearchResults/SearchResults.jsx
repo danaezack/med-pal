@@ -1,18 +1,16 @@
 import './SearchResults.css';
 
-function SearchResults({ meds }) {
-  
-  function renderResults() {
+function SearchResults({ meds, openModal }) {
+
+  const renderResults = () => {
     const medCards = meds.map(med => {
       return (
-        <section className='results-container'>
-          <p className='med-card'>{med}</p>
-        </section>
+        <button type='button' value={med} onClick={(event) => openModal(event)} className='result'>{med}</button>
       )
     })
     if (meds.length) {
       return (
-        <section>
+        <section className='results-container'>
           <h2 className='results-title'>Search results:</h2>
           {medCards}
         </section>

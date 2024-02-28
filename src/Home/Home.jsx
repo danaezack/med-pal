@@ -4,10 +4,8 @@ import SearchResults from '../SearchResults/SearchResults';
 import { useState } from 'react';
 import { getMeds } from '../apiCalls';
 
-function Home() {
-  const [meds, setMeds] = useState(null);
-  const [keyword, setKeyword] = useState('');
-  const [error, setError] = useState('')
+function Home({ meds, setMeds, keyword, setKeyword, openModal, setMedication }) {
+  const [error, setError] = useState('');
 
   const requestMeds = (event) => {
     event.preventDefault()
@@ -19,13 +17,13 @@ function Home() {
         setMeds([]);
         setError(error.message);
       })
-    setKeyword('')
-  }
+  };
+
   
   return (
     <main>
       <Search requestMeds={requestMeds} keyword={keyword} setKeyword={setKeyword}/>
-      <SearchResults meds={meds}/>
+      <SearchResults meds={meds} setMedication={setMedication} openModal={openModal}/>
     </main>
   )
 };
