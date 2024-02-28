@@ -1,0 +1,64 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left:  0;
+  width:  100%;
+  height:  100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.519);
+}
+
+.modal {
+  position: fixed;
+  width: 80%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 1em;
+  padding: 30px;
+}
+
+.close-btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.close-btn, .add-btn {
+  border: none;
+  background-color: white;
+  font-size: 30px;
+  padding: 0;
+}
+
+.add-btn {
+  font-weight: 600;
+  position: fixed;
+  bottom: 16%;
+  border-radius: 1.5em;
+  font-size: 24px;
+  background-color: rgb(241, 165, 71);
+  color: black;
+  padding: 0.5em;
+}
+
+.close-btn:hover, .add-btn:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.add-btn:hover {
+  transform: scale(1.05);
+}
+
+p {
+  margin: 5px;
+}
+
+.medication-name {
+  font-weight: 500;
+}
