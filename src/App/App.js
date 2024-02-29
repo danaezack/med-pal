@@ -13,6 +13,9 @@ function App() {
   const [medication, setMedication] = useState('');
   const [medList, setMedList] = useState([]);
 
+  const [quantity, setQuantity] = useState('')
+  const [frequency, setFrequency] = useState('')
+
   const clearResults = () => {
     setKeyword('');
     setMeds(null);
@@ -29,7 +32,12 @@ function App() {
     selectMedication(event);
   }
 
-  const addMed = (newMed) => {
+  const addMed = (med) => {
+    const newMed = {
+      name: med,
+      quantity,
+      frequency
+    }
     setMedList([...medList, newMed]);
   }
 
@@ -40,7 +48,18 @@ function App() {
         <Route path='/' element={<Home meds={meds} setMeds={setMeds} keyword={keyword} setKeyword={setKeyword} openModal={openModal} setMedication={setMedication}/>} />
         <Route path='/med-list' element={<MedList medList={medList}/>} />
       </Routes>
-      { isSelected && <Modal medication={medication} closeModal={closeModal} addMed={addMed} clearResults={clearResults}/>}
+      { isSelected &&
+        <Modal
+          medication={medication}
+          closeModal={closeModal}
+          addMed={addMed}
+          quantity={quantity}
+          setQuantity={setQuantity}
+          frequency={frequency}
+          setFrequency={setFrequency}
+          clearResults={clearResults}
+        />
+      }
     </main>
   );
 }

@@ -6,7 +6,11 @@ function MedList({ medList }) {
   
   const savedCards = medList.map(med => {
     return (
-      <SavedCard med={med} />
+      <SavedCard
+        name={med.name}
+        quantity={med.quantity}
+        frequency={med.frequency}
+      />
     )
   })
   

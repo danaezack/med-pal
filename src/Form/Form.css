@@ -1,0 +1,10 @@
+.modal-form {
+  display: flex;
+  color: black;
+  margin: 50px;
+}
+
+.dropdown {
+  margin: 20px;
+  font-size: 22px;
+}

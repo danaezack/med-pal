@@ -1,9 +1,11 @@
 import './SavedCard.css';
 
-function SavedCard({ med }) {
+function SavedCard({ name, quantity, frequency }) {
   return (
     <article className='saved-card'>
-      <p>{med}</p>
+      <p className='saved-name'>{name}</p>
+      <p>Quantity: {quantity}</p>
+      <p>Frequency: {frequency}</p>
     </article>
   );
 }
