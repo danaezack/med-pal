@@ -9,7 +9,7 @@ function Search({ requestMeds, keyword, setKeyword }) {
         name='search-input'
         type='text'
         value={keyword}
-        placeholder='Search for medication'
+        placeholder='Search for a medication to add to your med list'
         onChange={(event) => setKeyword(event.target.value)}
       />
       <button className='search-btn' onClick={(event) => requestMeds(event, keyword)}>Submit</button>
