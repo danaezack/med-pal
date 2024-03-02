@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 40px;
 }
 
 .results-title, .no-match-msg {
@@ -25,7 +26,7 @@
 .result:hover {
   cursor: pointer;
   transform: scale(1.01);
-  background: rgb(199, 199, 199);
+  background: var(--main-color);
 }
 
 .no-match-msg { 

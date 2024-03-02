@@ -1,0 +1,52 @@
+
+{
+  "drugGroup": {
+      "name": null,
+      "conceptGroup": [
+          {
+              "tty": "BPCK"
+          },
+          {
+              "tty": "SBD",
+              "conceptProperties": [
+                  {
+                      "rxcui": "262095",
+                      "name": "atorvastatin 50 MG Oral Tablet [Lipitor]",
+                      "synonym": "Lipitor 50 MG Oral Tablet",
+                      "tty": "SBD",
+                      "language": "ENG",
+                      "suppress": "N",
+                      "umlscui": ""
+                  },
+                  {
+                      "rxcui": "617314",
+                      "name": "atorvastatin 150 MG Oral Tablet [Lipitor]",
+                      "synonym": "Lipitor 150 MG Oral Tablet",
+                      "tty": "SBD",
+                      "language": "ENG",
+                      "suppress": "N",
+                      "umlscui": ""
+                  },
+                  {
+                      "rxcui": "617318",
+                      "name": "atorvastatin 250 MG Oral Tablet [Lipitor]",
+                      "synonym": "Lipitor 250 MG Oral Tablet",
+                      "tty": "SBD",
+                      "language": "ENG",
+                      "suppress": "N",
+                      "umlscui": ""
+                  },
+                  {
+                      "rxcui": "617320",
+                      "name": "atorvastatin 450 MG Oral Tablet [Lipitor]",
+                      "synonym": "Lipitor 450 MG Oral Tablet",
+                      "tty": "SBD",
+                      "language": "ENG",
+                      "suppress": "N",
+                      "umlscui": ""
+                  }
+              ]
+          }
+      ]
+  }
+}

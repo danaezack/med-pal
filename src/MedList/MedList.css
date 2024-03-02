@@ -1,4 +1,4 @@
-.med-list-page {
+.med-list-page, .saved-cards-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,11 +8,16 @@
   margin: 30px 0 20px;
 }
 
+.saved-cards-container {
+  width: 80%;
+}
+
 .return-btn {
   width: auto;
   border: none;
   border-radius: 1.5em;
   font-size: 22px;
+  height: 2.5em;
   padding: 0.5em;
   font-weight: 600;
   background-color: rgb(199, 199, 199);
@@ -23,5 +28,5 @@
 .return-btn:hover {
   cursor: pointer;
   transform: scale(1.05);
-  background-color: rgb(255, 198, 106);
+  background-color: var(--main-color);
 }

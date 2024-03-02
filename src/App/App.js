@@ -5,6 +5,7 @@ import Header from '../Header/Header';
 import Home from '../Home/Home';
 import MedList from '../MedList/MedList';
 import Modal from '../Modal/Modal';
+import NotFound from '../NotFound/NotFound';
 
 function App() {
   const [keyword, setKeyword] = useState('');
@@ -48,6 +49,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home meds={meds} setMeds={setMeds} match={match} setMatch={setMatch} keyword={keyword} setKeyword={setKeyword} openModal={openModal} />} />
         <Route path='/med-list' element={<MedList medList={medList}/>} />
+        <Route path='*' element={<NotFound/>} />
       </Routes>
       { isSelected &&
         <Modal

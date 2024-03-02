@@ -22,7 +22,7 @@ h1 {
 }
 
 .title-2 {
-  color: rgb(212, 78, 11);
+  color: var(--tertiary-color);
 }
 
 .nav-bar {
@@ -41,10 +41,11 @@ h1 {
   font-weight: 600;
   background-color: rgb(255, 255, 255);
   color: black;
+  padding: 2px;
 }
 
 .nav-btn:hover {
   cursor: pointer;
+  background-color: var(--main-color);
   transform: scale(1.05);
-  background-color: rgb(255, 198, 106);
 }
