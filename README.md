@@ -8,6 +8,15 @@ This React application allows a user to track their medications by curating a cu
 [//]: <> (What steps does a person have to take to get your app cloned down and running?)
 Click here to view the deployed application: <br>https://medpal-ot7eb0f6j-dana-zacks-projects.vercel.app
 
+To install & run:
+- Clone repository
+- Cd into newly created directory
+- Run 'npm install'
+- Run 'npm start'
+
+To initiate cypress testing:
+- Run 'npm cypress run'
+
 
 ### App Preview:
 [//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
