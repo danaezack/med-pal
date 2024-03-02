@@ -6,9 +6,14 @@
   width: 80%;
   font-size: 20px;
   height: auto;
+  text-align: left;
 }
 
-.saved-name {
+.saved {
+  margin: 5px;
+}
+
+.name {
   font-size: 30px;
   font-weight: 500;
 }

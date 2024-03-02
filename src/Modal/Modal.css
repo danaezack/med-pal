@@ -11,9 +11,8 @@
 }
 
 .modal {
-  position: fixed;
-  width: 80%;
-  height: 60%;
+  width: 60%;
+  height: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,23 +27,23 @@
   justify-content: flex-end;
 }
 
-.close-btn, .add-btn {
+.close-btn {
   border: none;
   background-color: white;
   color: var(--tertiary-color);
   font-size: 40px;
   padding: 0;
-  margin-right: 10px;
+  margin-right: 8px;
 }
 
 .add-btn {
+  border: none;
   font-weight: 600;
   border-radius: 1.5em;
-  font-size: 24px;
+  font-size: 20px;
   background-color: rgb(199, 199, 199);
   color: black;
   padding: 0.5em;
-  margin-top: 2em;
 }
 
 .close-btn:hover, .add-btn:hover {
@@ -57,11 +56,38 @@
   background-color: rgb(255, 198, 106);
 }
 
-p {
-  font-size: 28px;
-  margin: 5px;
+.modal-title {
+  margin-top: 20px;
+  margin: 0;
+  text-align: center;
 }
 
 .medication-name {
   font-weight: 500;
+  margin: 0;
+  text-align: center;
+}
+
+@media screen and (max-height: 500px) {
+  .modal {
+    width: 75%;
+    height: 75%
+  }
+
+  p {
+    font-size: 24px;
+  }
+
+  .add-btn {
+    font-size: 18px;
+  }
+
+  .modal-title {
+    margin-top: 0;
+    font-size: 20px;
+  }
+
+  .medication-name {
+    font-size: 20px;
+  }
 }
