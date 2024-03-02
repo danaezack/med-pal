@@ -31,8 +31,10 @@
 .close-btn, .add-btn {
   border: none;
   background-color: white;
-  font-size: 30px;
+  color: var(--tertiary-color);
+  font-size: 40px;
   padding: 0;
+  margin-right: 10px;
 }
 
 .add-btn {

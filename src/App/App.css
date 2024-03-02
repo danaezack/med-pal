@@ -1,4 +1,13 @@
+:root {
+  --main-color:  rgb(255, 198, 106);
+  --secondary-color: rgb(199, 199, 199);
+  --tertiary-color: rgb(221, 83, 14);
+  --main-font: "Young Serif", serif;
+  --secondary-font: "Montserrat", sans-serif;
+}
+
 body {
   font-size: 1.5em;
   background-color: rgb(230, 245, 255);
 }
+
