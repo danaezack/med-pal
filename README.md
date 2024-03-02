@@ -11,12 +11,9 @@ Click here to view the deployed application: <br>https://medpal-ot7eb0f6j-dana-z
 
 ### App Preview:
 [//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
-https://www.loom.com/share/a68b4070c94c4fdfadc47d93e47743e5
 
-![image](./images/screenshot1.png)
-![image](./images/screenshot2.png)
-![image](./images/screenshot3.png)
-![image](./images/screenshot4.png)
+<img width="1393" alt="Screenshot 2024-03-02 at 3 17 57 PM" src="https://github.com/dana-zack/med-pal/assets/128552954/280894ef-17f3-4673-8a9a-0fcba194dca3">
+
 
 ### Context:
 [//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
