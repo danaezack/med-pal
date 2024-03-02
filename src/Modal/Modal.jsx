@@ -1,6 +1,7 @@
 import './Modal.css';
 import { Link } from 'react-router-dom';
 import Form from '../Form/Form'
+import PropTypes from 'prop-types';
 
 function Modal({ medication, closeModal, addMed, frequency, setFrequency, quantity, setQuantity, clearResults }) {
 
@@ -37,3 +38,14 @@ function Modal({ medication, closeModal, addMed, frequency, setFrequency, quanti
 }
 
 export default Modal;
+
+Modal.propTypes = {
+  medication: PropTypes.string.isRequired,
+  closeModal: PropTypes.func.isRequired,
+  addMed: PropTypes.func.isRequired,
+  frequency: PropTypes.string.isRequired,
+  setFrequency: PropTypes.func.isRequired,
+  quantity: PropTypes.string.isRequired,
+  setQuantity: PropTypes.func.isRequired,
+  clearResults: PropTypes.func.isRequired
+};

@@ -8,17 +8,18 @@ import Modal from '../Modal/Modal';
 
 function App() {
   const [keyword, setKeyword] = useState('');
-  const [meds, setMeds] = useState(null);
+  const [meds, setMeds] = useState([]);
   const [isSelected, setIsSelected] = useState(false);
   const [medication, setMedication] = useState('');
   const [medList, setMedList] = useState([]);
-
   const [quantity, setQuantity] = useState('')
   const [frequency, setFrequency] = useState('')
+  const [match, setMatch] = useState(true)
 
   const clearResults = () => {
     setKeyword('');
-    setMeds(null);
+    setMeds([]);
+    setMatch(true);
   }
 
   const selectMedication = (event) => {
@@ -43,9 +44,9 @@ function App() {
 
   return (
     <main>
-      <Header clearResults={clearResults}/>
+      <Header clearResults={clearResults} />
       <Routes>
-        <Route path='/' element={<Home meds={meds} setMeds={setMeds} keyword={keyword} setKeyword={setKeyword} openModal={openModal} setMedication={setMedication}/>} />
+        <Route path='/' element={<Home meds={meds} setMeds={setMeds} match={match} setMatch={setMatch} keyword={keyword} setKeyword={setKeyword} openModal={openModal} />} />
         <Route path='/med-list' element={<MedList medList={medList}/>} />
       </Routes>
       { isSelected &&

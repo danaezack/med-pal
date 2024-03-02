@@ -1,4 +1,5 @@
 import './Form.css';
+import PropTypes from 'prop-types';
 
 function Form({ quantity, setQuantity, frequency, setFrequency }) {
   return (
@@ -20,3 +21,10 @@ function Form({ quantity, setQuantity, frequency, setFrequency }) {
 }
 
 export default Form;
+
+Form.propTypes = {
+  quantity: PropTypes.string.isRequired,
+  setQuantity: PropTypes.func.isRequired,
+  frequency: PropTypes.string.isRequired,
+  setFrequency:PropTypes.func.isRequired
+};
