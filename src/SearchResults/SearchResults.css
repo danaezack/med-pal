@@ -27,3 +27,7 @@
   transform: scale(1.01);
   background: rgb(199, 199, 199);
 }
+
+.no-match-msg { 
+  margin: 30px;
+}

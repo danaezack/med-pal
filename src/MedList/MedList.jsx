@@ -1,6 +1,7 @@
 import './MedList.css';
 import SavedCard from '../SavedCard/SavedCard';
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 function MedList({ medList }) {
   
@@ -26,3 +27,7 @@ function MedList({ medList }) {
 }
 
 export default MedList;
+
+MedList.propTypes = {
+  medList: PropTypes.arrayOf(PropTypes.objectOf(PropTypes.string)).isRequired
+};

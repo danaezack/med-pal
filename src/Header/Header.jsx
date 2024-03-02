@@ -1,5 +1,6 @@
 import './Header.css';
 import { Link, NavLink } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 function Header({ clearResults }) {
   return (
@@ -23,3 +24,7 @@ function Header({ clearResults }) {
 }
 
 export default Header;
+
+Header.propTypes = {
+  clearResults: PropTypes.func.isRequired
+};

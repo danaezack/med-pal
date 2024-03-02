@@ -1,4 +1,5 @@
 import './SavedCard.css';
+import PropTypes from 'prop-types';
 
 function SavedCard({ name, quantity, frequency }) {
   return (
@@ -11,3 +12,9 @@ function SavedCard({ name, quantity, frequency }) {
 }
 
 export default SavedCard;
+
+SavedCard.propTypes = {
+  name: PropTypes.string.isRequired,
+  quantity: PropTypes.string.isRequired,
+  frequency: PropTypes.string.isRequired
+};
