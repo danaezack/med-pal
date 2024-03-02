@@ -16,13 +16,18 @@ a {
 }
 
 h1 {
-  color: black;
+  color: var(--tertiary-color);
   font-size: 6em;
-  margin: 20px 0 30px 5px;
+  margin: 20px 10px 10px;
 }
 
 .title-2 {
-  color: var(--tertiary-color);
+  color: white;
+  text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000;
 }
 
 .nav-bar {
@@ -35,7 +40,7 @@ h1 {
   margin: 10px;
   width: 6em;
   height: 2em;
-  border: none;
+  border: 1px solid black;
   border-radius: 1.5em;
   font-size: 1em;
   font-weight: 600;
@@ -48,4 +53,38 @@ h1 {
   cursor: pointer;
   background-color: var(--main-color);
   transform: scale(1.05);
+}
+
+@media screen and (max-width: 910px) {
+  .nav-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .heading {
+    display: flex;
+    flex-direction: column;
+    background-color: opacity(80);
+    background-image: url('../../images/banner.jpg');
+  }
+
+  .full-title {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+  }
+
+  h1 {
+    font-size: 5em;
+    margin-bottom: 0;
+  }
 }

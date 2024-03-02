@@ -4,9 +4,9 @@ import PropTypes from 'prop-types';
 function SavedCard({ name, quantity, frequency }) {
   return (
     <article className='saved-card'>
-      <p className='saved-name'>{name}</p>
-      <p>Quantity: {quantity}</p>
-      <p>Frequency: {frequency}</p>
+      <p className='saved name'>{name}</p>
+      <p className='saved'>Quantity: {quantity}</p>
+      <p className='saved'>Frequency: {frequency}</p>
     </article>
   );
 }
