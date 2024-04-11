@@ -8,19 +8,17 @@ This React application allows a user to track their medications by curating a cu
 JavaScript, React, React Router, Cypress, HTML, CSS, REST APIs, Git, GitHub, Figma, Vercel
 
 ### Deployed Application:
-https://medpal-ot7eb0f6j-dana-zacks-projects.vercel.app
+[Click here!](https://medpal1.vercel.app/)
 
 ### Installation Instructions:
 [//]: <> (What steps does a person have to take to get your app cloned down and running?)
 
-To install & run:
-- Clone the repository to your local machine
-- Cd into the newly created directory
-- Run 'npm install'
-- Run 'npm start'
-
-To initiate cypress testing:
-- Run 'npm run cypress'
+To install, run, & test:
+- Clone the repository to your local machine: ```git clone git@github.com:dana-zack/med-pal.git```
+- Cd into the newly created directory: ```cd med-pal```
+- Install dependencies: ```npm install```
+- Run the application: ```npm start```
+- Test the application: ```npm run cypress```
 
 ### App Preview:
 [//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
@@ -40,21 +38,13 @@ Additionally, patients often visit the emergency room unexpectedly and--therefor
 
 This app would help bridge these gaps and provide a layer of protection for both patients and providers.
 
-### Project Board:
-https://github.com/users/dana-zack/projects/4/views/1
+### Relevant Links:
 
-### MVP Proposal:
-https://docs.google.com/document/d/1lCdkcBdX1k4rn0BtHt7eFYgFCw13UDsKTzABU44x6BE/edit
-
-### WireFrame: 
-https://www.figma.com/file/i3ZUSwEufPu7mXYKmp3hYv/MedPal?type=design&node-id=0-1&mode=design&t=Nz9wYwfY7kJi3zAp-0 <br>
-(Note: this reflects the original design which was slightly modified during production)
-
-### Equity Analysis:
-https://docs.google.com/document/d/1aEzSCChsw4dU6TJwJyEFdaCDm28f-mtpDWUuzn61-0A/edit
-
-### Public API:
-https://lhncbc.nlm.nih.gov/RxNav/APIs/api-Prescribable.getDrugs.html
+- [Project Board](https://github.com/users/dana-zack/projects/4/views/1) <br>
+- [MVP Proposal](https://docs.google.com/document/d/1lCdkcBdX1k4rn0BtHt7eFYgFCw13UDsKTzABU44x6BE/edit) <br>
+- [WireFrame](https://www.figma.com/file/i3ZUSwEufPu7mXYKmp3hYv/MedPal?type=design&node-id=0-1&mode=design&t=Nz9wYwfY7kJi3zAp-0) <br>
+- [Equity Analysis](https://docs.google.com/document/d/1aEzSCChsw4dU6TJwJyEFdaCDm28f-mtpDWUuzn61-0A/edit) <br>
+- [Public API](https://lhncbc.nlm.nih.gov/RxNav/APIs/api-Prescribable.getDrugs.html) <br>
 
 ### Wins + Challenges:
 [//]: <> (What are 2-3 wins you have from this project? What were some challenges you faced - and how did you get over them?)
