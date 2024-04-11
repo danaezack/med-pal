@@ -2,7 +2,7 @@
 
 ### Abstract:
 [//]: <> (Briefly describe what you built and its features. What problem is the app solving? How does this application solve that problem?)
-This React application allows a user to track their medications by curating a custom medication list. A user can search for a medication by brand name or generic name and a list of matching options will populate. Once they find their matching medication, they can specify further medication details ("quantity" and "frequency") and then add it to their medication list. When they view their medication list, they can see all of their medications and medication details in one place.
+This React application allows a user to track their medications by curating a custom medication list. A user can search for a medication by brand name or generic name (spelling counts!) and a list of corresponding dose options will populate. Once they find their matching dose, they can specify further medication details ("quantity" and "frequency") and then add it to their medication list. When they view their medication list, they can see all of their medications and medication details in one place.
 
 ### Installation Instructions:
 [//]: <> (What steps does a person have to take to get your app cloned down and running?)
