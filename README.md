@@ -43,6 +43,9 @@ This app would help bridge these gaps and provide a layer of protection for both
 ### Project Board:
 https://github.com/users/dana-zack/projects/4/views/1
 
+### MVP Proposal:
+https://docs.google.com/document/d/1lCdkcBdX1k4rn0BtHt7eFYgFCw13UDsKTzABU44x6BE/edit
+
 ### WireFrame: 
 https://www.figma.com/file/i3ZUSwEufPu7mXYKmp3hYv/MedPal?type=design&node-id=0-1&mode=design&t=Nz9wYwfY7kJi3zAp-0 <br>
 (Note: this reflects the original design which was slightly modified during production)
