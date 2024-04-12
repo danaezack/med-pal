@@ -2,7 +2,7 @@
 
 ### Abstract:
 [//]: <> (Briefly describe what you built and its features. What problem is the app solving? How does this application solve that problem?)
-This React application allows a user to track their medications by curating a custom medication list. A user can search for a medication by brand name or generic name (spelling counts!) and a list of matching options of various strengths will populate. Once they find their matching medication name and strength, they can click on that option to populate a modal form. This form contains additional medication details for the user to select (quantity and frequency) before they officially add it to their medication list. Once they've added all of their medications to the list, they can view the list and see all of their medications and medication details in one place!
+This React application allows a user to track their medications by curating a custom medication list. A user can search for a medication by brand name or generic name (spelling counts!) and a list of matching options of various strengths will populate. Once they find their matching medication name and strength, they can click on that option to populate a modal form. This form contains additional medication details for the user to select (quantity and frequency) before they officially add a medication to their medication list. Once they've added all of their medications to the list, they can view the list and see all of their medications and medication details in one place!
 
 ### Tech stack / Tools:
 JavaScript, React, React Router, Cypress, HTML, CSS, REST APIs, Git, GitHub, Figma, Vercel
@@ -42,7 +42,7 @@ This app would help bridge these gaps and provide a layer of protection for both
 
 - [Project Board](https://github.com/users/dana-zack/projects/4/views/1) <br>
 - [MVP Proposal](https://docs.google.com/document/d/1lCdkcBdX1k4rn0BtHt7eFYgFCw13UDsKTzABU44x6BE/edit) <br>
-- [WireFrame](https://www.figma.com/file/i3ZUSwEufPu7mXYKmp3hYv/MedPal?type=design&node-id=0-1&mode=design&t=Nz9wYwfY7kJi3zAp-0) <br>
+- [Wireframe](https://www.figma.com/file/i3ZUSwEufPu7mXYKmp3hYv/MedPal?type=design&node-id=0-1&mode=design&t=Nz9wYwfY7kJi3zAp-0) <br>
 - [Equity Analysis](https://docs.google.com/document/d/1aEzSCChsw4dU6TJwJyEFdaCDm28f-mtpDWUuzn61-0A/edit) <br>
 - [Public API](https://lhncbc.nlm.nih.gov/RxNav/APIs/api-Prescribable.getDrugs.html) <br>
 
